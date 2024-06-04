@@ -1,0 +1,34 @@
+<%- include('../includes/head.ejs') %>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+    <%- include('../includes/nav.ejs') %>
+
+    <form class="forms" action="/admin/add-users" method="POST">
+        <div class="form-group">
+            <label for="usernames">Usernames:</label>
+            <input type="text" id="usernames" name="usernames">
+        </div>
+        
+        <div class="form-group">
+            <label for="imageurl">Image URL:</label>
+            <input type="text" id="imageURL" name="imageurl">
+        </div>
+    
+        <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price">
+        </div>
+        
+        <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea id="description" name="description"></textarea>
+        </div>
+    
+        <button type="submit">SUBMIT USER NAME HERE :3</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,95 @@
+.main-header_nav .active {
+    color: yellow; /* Yellow color for active link */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6e1e1; /* Light pink background */
+}
+
+header {
+    background-color: #ffd6d6; /* Lighter pink header */
+    padding: 20px;
+    text-align: center;
+}
+
+.main-header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header_nav h1 {
+    margin: 0;
+    color: #ff7f7f; /* Dark pink text */
+}
+
+.main-header_ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-header_ul li {
+    margin-right: 20px;
+}
+
+.main-header_ul li:last-child {
+    margin-right: 60px;
+}
+
+.main-header_ul li a {
+    text-decoration: none;
+    color: #ff7f7f; /* Dark pink links */
+}
+
+.main-header_ul li a:hover {
+    color: #ff4d4d; /* Darker pink on hover */
+}
+
+
+
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Adjust the width as needed */
+    margin: auto; /* Center the form */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Optional: makes the label bold */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    border: 1px solid #ccc; /* Basic border styling */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff7f7f; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color:  #ff4d4d;; /* Darker green on hover */
+}

@@ -1,0 +1,9 @@
+extends layouts/layout1.pug
+
+block content   
+    form.forms(action="/admin/add-users" , method="POST")
+            input(type="text", name="usernames")
+            button(type="submit") SUBMIT USERNAME HERE :3
+
+
+

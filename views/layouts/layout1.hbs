@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{pageTitle}}</title>
+    <link rel="stylesheet" href="/css/main.css">
+    {{#if productcardcss}}
+        <link rel="stylesheet" href="/css/productcard.css">
+    {{/if}}
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header_nav">
+            <h1>{{hi}}</h1>
+            <ul class="main-header_ul">
+                <li><a href="/">Go Back Home</a></li>
+                <li><a href="/admin/add-users">Add Users</a></li>
+            </ul>
+        </nav>
+    </header>
+    {{{body}}}
+</body>
+</html>

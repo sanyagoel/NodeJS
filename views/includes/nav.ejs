@@ -1,0 +1,14 @@
+<header class="main-header">
+    <nav class="main-header_nav">
+        <h1><%= hi %></h1>
+        <ul class="main-header_ul">
+            <li><a href="/" class="<%= path=== 'tohome' ? 'active' : '' %>">Go Back Home</a></li>
+            <li><a href="/admin/add-users" class="<%= path === 'tousers' ? 'active' : '' %>">Add Users</a></li>
+            <li><a href="/cart" class="<%= path==='tocart' ? 'active' : ' ' %>">Go To Cart</a></li>
+            <li><a href="/products" class="<%= path=== 'toproducts' ? 'active' : '' %>">Products</a></li>
+            <li><a href="/admin/products" class="<%= path === 'toadminprod' ? 'active' : '' %>">Admin Products</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
